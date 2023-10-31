@@ -1,0 +1,201 @@
+
+.papu{
+    
+    align-self: center;
+    padding: 30px;     
+    box-shadow: 8px 8px 35px 0px rgba(75, 255, 234, 0.75);     
+    width: 50%;   
+    display: flex;  
+    justify-content: center;
+    align-items: center;  
+    border: 5px solid rgb(19, 240, 207);
+    margin: 2rem;    
+    border-radius: 20px;
+    background-color: rgb(193, 255, 230);  
+}
+.pepe{
+    
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    width: 190px;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    transition: all .2s ease;
+   }
+.pepe:hover{
+        box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+    }
+    :focus{
+        background: #fff;
+        outline: 0;
+        box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 3px;
+    }
+
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+#button {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px auto;
+  width: 150px;
+  height: 50px;
+  background: white;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  transition: 1s box-shadow;
+}
+
+#button:hover {
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+}
+
+#button:hover :before, .button:hover::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background: #FDA8CF;
+    border-radius: 15px;
+    z-index: -1;
+    animation: 1s clockwise infinite;
+.content {
+    text-align: center;
+}
+}
+
+#button:hover:after {
+    background: #A4FA3B;
+    animation: 2s counterclockwise infinite;
+  }
+  
+  @keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+  }
+  
+  @keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+  }
+
+.pagina {
+    display: none;
+    padding: 20px;
+}
+
+.pagina h1 {
+    font-family: Century Gothic;
+    font-size: 24px;
+}
+
+.pagina p {
+    font-family: Century Gothic;
+    font-size: 16px;
+}
+.nico{
+    background-color: rgb(193, 255, 230);
+}
+.carlos {
+    margin-right: 20px;
+    border: none;
+    background: #06d6ac;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  .carlos:hover {
+    background: #0d977e;
+  }
+  .messi{
+    background-color: rgb(183, 252, 224);
+  }
